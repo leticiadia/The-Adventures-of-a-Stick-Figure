@@ -25,8 +25,8 @@ function changeScene(decision) {
             curScene = 0;
             message = "Welcome back! Your journey begins now.";
         }else {
-            decision == 2
-            message = "Essa ação não pode ser executada. Click novamente no primeiro botão para retornar ao início."
+            decision == 2;
+            message = "This action cannot be performed. Click the first button again to return to the beginning.";
         } 
 
         break;
@@ -37,8 +37,8 @@ function changeScene(decision) {
             curScene = 0;
             message = "Welcome back! Your journey begins now.";
         }else {
-            decision == 1
-            message = "Essa ação não pode ser executada. Click novamente no segundo botão para retornar ao início."
+            decision == 1;
+            message = "This action cannot be performed. Click the second button again to return to the beginning.";
         }
          
     }
